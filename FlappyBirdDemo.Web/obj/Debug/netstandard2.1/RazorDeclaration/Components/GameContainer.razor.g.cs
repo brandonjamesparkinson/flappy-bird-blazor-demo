@@ -82,6 +82,13 @@ using FlappyBirdDemo.Web.Components;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\_Imports.razor"
+using FlappyBirdDemo.Web.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class GameContainer : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -89,6 +96,28 @@ using FlappyBirdDemo.Web.Components;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 14 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\Components\GameContainer.razor"
+       
+
+    GameManager _gameManager;
+
+    protected override void OnInitialized()
+    {
+        _gameManager = new GameManager();
+        _gameManager.MainLoopCompleted += (o, e) => StateHasChanged();
+    }
+
+    void HandleKeyUp(KeyboardEventArgs e)
+    {
+        if (e.Key == " ")
+            _gameManager.Jump();
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

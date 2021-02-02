@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace FlappyBirdDemo.Web
+namespace FlappyBirdDemo.Web.Components
 {
     #line hidden
     using System;
@@ -89,13 +89,25 @@ using FlappyBirdDemo.Web.Models;
 #line default
 #line hidden
 #nullable disable
-    public partial class App : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class Bird : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 3 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\Components\Bird.razor"
+       
+
+    [Parameter] public BirdModel Model { get; set; }
+
+    string _birdCss => $"bottom: {Model.DistanceFromGround}px";
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591
