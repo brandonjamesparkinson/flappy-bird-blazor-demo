@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "FlappyBirdDemo.Web.dll": "sha256-AUI9sq3+5isMJ5YQtAEdsVzOQ5UvN\/pYLUBfBZUWXCk=",
+      "FlappyBirdDemo.Web.dll": "sha256-6MralN2ADr52Sh8+XNh+dO88BfIqtMq4vWmHutrQ\/CA=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-Bs1Wrmh4ex9dTEIT0yCRF52N\/wOmsBDt457BHr0\/ssM=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=",
@@ -59,7 +59,7 @@
       "System.ComponentModel.DataAnnotations.dll": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8="
     },
     "pdb": {
-      "FlappyBirdDemo.Web.pdb": "sha256-l9pV+UOu+Mg+JnBUDtJoiYvCPlMzypc6ChGXJEblqh8="
+      "FlappyBirdDemo.Web.pdb": "sha256-U1hJcJbbq2ytbFfXh2TSLD9J\/jEjsMEULL9rIvoFTtY="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",

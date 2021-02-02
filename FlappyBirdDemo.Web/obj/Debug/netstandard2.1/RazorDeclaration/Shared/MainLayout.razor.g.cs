@@ -75,6 +75,13 @@ using FlappyBirdDemo.Web.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\_Imports.razor"
+using FlappyBirdDemo.Web.Components;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
