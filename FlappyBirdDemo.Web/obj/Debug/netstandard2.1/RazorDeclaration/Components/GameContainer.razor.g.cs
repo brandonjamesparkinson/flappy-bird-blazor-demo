@@ -97,7 +97,7 @@ using FlappyBirdDemo.Web.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\Components\GameContainer.razor"
+#line 17 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\Components\GameContainer.razor"
        
 
     GameManager _gameManager;

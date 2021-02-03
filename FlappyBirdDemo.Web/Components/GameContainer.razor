@@ -1,4 +1,6 @@
-﻿<div class="game-container" tabindex="0" @onclick="_gameManager.StartGame" @onkeyup="HandleKeyUp">
+﻿<div class="border-left"></div>
+<div class="game-container" tabindex="0" @onclick="_gameManager.StartGame" @onkeyup="HandleKeyUp">
+    <div class="border-top"></div>
     <div class="sky">
         <Bird Model="_gameManager.Bird" />
     </div>
@@ -10,6 +12,7 @@
     }
 
 </div>
+<div clss="border-right"></div>
 
 @code {
 

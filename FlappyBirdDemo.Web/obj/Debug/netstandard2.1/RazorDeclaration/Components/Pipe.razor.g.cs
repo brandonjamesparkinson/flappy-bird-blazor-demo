@@ -97,12 +97,16 @@ using FlappyBirdDemo.Web.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 3 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\Components\Pipe.razor"
+#line 4 "C:\Users\brand\source\repos\FlappyBirdDemo.Web\FlappyBirdDemo.Web\Components\Pipe.razor"
        
 
     [Parameter] public PipeModel Model { get; set; }
 
-    string _pipeCss => $"left: {Model.DistanceFromLeft}px; bottom: {Model.DistanceFromBottom}px";
+    string _bottomPipeCss => 
+        $"left: {Model.DistanceFromLeft}px; bottom: {Model.DistanceFromBottom}px";
+
+    string _topPipeCss => 
+        $"left: {Model.DistanceFromLeft}px; bottom: {Model.DistanceFromBottom + 300 + Model.Gap }px";
 
 #line default
 #line hidden
